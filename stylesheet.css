@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  color: #ffffff;
+  background: #181818;
+  font-size: 14px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.icon {
+  font-size: 20px;
+  padding: 5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #202020;
+  display: flex;
+  position: fixed;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-icon {
+  background: #202020;
+}
+
+#left {
+  display: flex;
+}
+
+#center {
+  display: flex;
+  background: #121212;
+  height: 30px;
+  line-height: 30px;
+  width: 650px;
+  border-radius: 3px;
+  border: 1px solid #313131;
+}
+
+#search-text {
+  flex: 1;
+  color: #888888;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#search-button {
+  background: #313131;
+  height: 30px;
+  width: 65px;
+  text-align: center;
+
+  font-size: 14px;
+}
+
+.search-icon {
+  color: #6f6f6f;
+  background: #313131;
+}
+
+#right {
+  display: flex;
+}
+
+#hamburger {
+  width: 60px;
+  text-align: center;
+}
+
+#yt-logo {
+  font-size: 24px;
+  color: red;
+}
+
+#create,
+#apps,
+#notifications {
+  width: 50px;
+  background: #202020;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#player {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-title {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+#video-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.video-info {
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.video-icon {
+  font-size: 20px;
+  padding: 5px;
+  color: #aaaaaa;
+}
+
+#description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#description-header-left {
+  display: flex;
+}
+
+#description {
+  padding-left: 68px;
+}
+
+#video-logo {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#channel-title {
+  font-weight: 700;
+}
+
+#sub-count {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+#subscribe-button {
+  font-size: 14px;
+  background: red;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#up-next {
+  flex: 0 0 auto;
+  width: 500px;
+}
+
+#up-next-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#up-next-title {
+  font-size: 18px;
+}
+
+#autoplay {
+  color: #aaaaaa;
+}
+
+.up-next-item {
+  display: flex;
+}
+
+.up-next-item-thumb {
+  width: 152.4px;
+  height: 117.6px;
+  margin-right: 10px;
+}
+
+.up-next-item-title {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.up-next-item-info {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.check-icon {
+  color: #aaaaaa;
+  size: 10px;
+}
